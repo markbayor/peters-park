@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import AllCats from './AllCats'
 
 export default class Park extends Component {
 
@@ -6,10 +7,9 @@ export default class Park extends Component {
     super();
     this.state = {
       // your state here
+      cats = []
     }
   }
-
-
   render() {
     return (
       <div></div>
